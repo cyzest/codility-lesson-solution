@@ -2,11 +2,17 @@ import org.junit.Test;
 
 public class LocalTestCase {
 
+    /**
+     * Codility Score 100%
+     */
     @Test
     public void test1() {
         System.out.println(solution1(2147483647));
     }
 
+    /**
+     * Codility Score 93%
+     */
     @Test
     public void test2() {
         System.out.println(solution2(2147483647));
